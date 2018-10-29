@@ -1,0 +1,19 @@
+.header .lbl {
+  color: white;
+  margin-right: 2em; }
+
+.header .usrProf {
+  float: right;
+  padding-top: 2.857em; }
+
+.header .fltLeft {
+  float: left; }
+
+.header .fltRight {
+  float: right; }
+  .header .fltRight .p {
+    margin-top: 10px; }
+
+.header .logo {
+  margin-top: 40px;
+  margin-bottom: 40px; }

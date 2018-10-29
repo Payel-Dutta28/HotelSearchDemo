@@ -1,0 +1,44 @@
+.offer-details-icon,.marketing-data-icon,.rewards-details-icon,.review-offer-icon{
+    .st0{
+        fill:#FFFFFF;stroke:#D3D3D3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px;
+    }
+    .st1{
+        fill:none;stroke:#D3D3D3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px;
+    }
+}
+
+.completed {
+    .offer-details-icon,.marketing-data-icon,.rewards-details-icon,.review-offer-icon{
+        .st0{
+            fill:#05AEDD; stroke: #05AEDD;stroke-width:2px;
+        }
+        .st1{
+            fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+        }
+    }
+    
+}
+
+.active {
+    .offer-details-icon,.marketing-data-icon,.rewards-details-icon,.review-offer-icon{
+        .st0{
+            fill:#FFFFFF;stroke:#00A3D2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px;
+        }
+        .st1{
+            fill:none;stroke:#00A3D2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+        }
+    }
+    
+}
+.step-connector{
+    span{
+        border-top-width: 2px;
+        border-color: #D3D3D3;
+    }
+}
+.step-button.completed+.step-connector{
+    span{
+        border-color: #00A3D2;
+    }
+}
+

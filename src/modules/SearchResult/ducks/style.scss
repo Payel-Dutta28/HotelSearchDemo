@@ -1,0 +1,141 @@
+@import "_styles/variables.scss";
+.body {
+  background-color: $white;
+  padding: 0 1.42em;
+}
+h3 {
+  margin: 0px;
+  //color: white;
+}
+.search-wrapper {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  h3 {
+    margin-top: 20px;
+    color: #b24700;
+    //margin-bottom: 20px;
+  }
+  .incrementer-box {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    width: 90%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    button {
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    input {
+      border: 0;
+      width: 48%;
+      outline: none;
+      //width: 78px;
+    }
+    h3 {
+      margin-bottom: 20px;
+    }
+  }
+  .search-btn {
+    height: 45px;
+    width: 220px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  .picker {
+    div {
+    }
+    .MuiInput-underline-138:before {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.09);
+    }
+    .MuiInput-underline-138:after {
+      border-bottom: 2px solid #b24700;
+    }
+  }
+}
+// .row {
+//   padding-top: 50px;
+.destination-row {
+  width: 95%;
+  div {
+    width: 100%;
+    background-color: white;
+  }
+  .destination-text-field {
+    .MuiFilledInput-root-102 {
+      background-color: white;
+    }
+  }
+  input {
+    margin-top: 10px;
+    width: 90%;
+  }
+  li {
+    border: 1px solid rgba(0, 0, 0, 0.09);
+  }
+}
+.preference-row {
+  // div {
+  //   width: 93%;
+  //   background-color: white;
+  //   height: 45px;
+  //   margin-top: 10px;
+  // }
+  // .destination-text-field {
+  //   margin-left: 17px;
+  // }
+  input {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 90%;
+    height: 40px;
+  }
+  h3 {
+    margin-left: 15px;
+  }
+}
+
+.picker {
+  button {
+    margin-bottom: 15px;
+  }
+  div {
+    // background-color: white;
+
+    height: 45px;
+    margin-top: 10px;
+    div {
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+  }
+  .MuiFormControl-root-98 {
+    width: 90%;
+  }
+  h3 {
+    //margin-left: 10px;
+  }
+  input {
+    // margin-left: 10px;
+  }
+}
+
+.search-btn-img {
+  height: 1.57em;
+  width: 1.57em;
+}
+.search-btn-home {
+  display: flex;
+  justify-content: center;
+  button {
+    height: 60%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+}

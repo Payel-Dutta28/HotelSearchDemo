@@ -1,0 +1,89 @@
+.body {
+  background-color: #ffffff;
+  padding: 0 1.42em; }
+
+h3 {
+  margin: 0px; }
+
+.search-wrapper {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
+  .search-wrapper h3 {
+    margin-top: 20px;
+    color: #b24700; }
+  .search-wrapper .incrementer-box {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    width: 90%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42); }
+    .search-wrapper .incrementer-box button {
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-left: 10px; }
+    .search-wrapper .incrementer-box input {
+      border: 0;
+      width: 48%;
+      outline: none; }
+    .search-wrapper .incrementer-box h3 {
+      margin-bottom: 20px; }
+  .search-wrapper .search-btn {
+    height: 45px;
+    width: 220px;
+    margin-top: 50px;
+    margin-left: 50px; }
+  .search-wrapper .picker .MuiInput-underline-138:before {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.09); }
+  .search-wrapper .picker .MuiInput-underline-138:after {
+    border-bottom: 2px solid #b24700; }
+
+.destination-row {
+  width: 95%; }
+  .destination-row div {
+    width: 100%;
+    background-color: white; }
+  .destination-row .destination-text-field .MuiFilledInput-root-102 {
+    background-color: white; }
+  .destination-row input {
+    margin-top: 10px;
+    width: 90%; }
+  .destination-row li {
+    border: 1px solid rgba(0, 0, 0, 0.09); }
+
+.preference-row input {
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 90%;
+  height: 40px; }
+
+.preference-row h3 {
+  margin-left: 15px; }
+
+.picker button {
+  margin-bottom: 15px; }
+
+.picker div {
+  height: 45px;
+  margin-top: 10px; }
+  .picker div div {
+    margin-left: 0px;
+    margin-top: 0px; }
+
+.picker .MuiFormControl-root-98 {
+  width: 90%; }
+
+.search-btn-img {
+  height: 1.57em;
+  width: 1.57em; }
+
+.search-btn-home {
+  display: flex;
+  justify-content: center; }
+  .search-btn-home button {
+    height: 60%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 200px; }

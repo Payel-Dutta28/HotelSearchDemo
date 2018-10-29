@@ -1,0 +1,7 @@
+.container {
+  width: 100%;
+  background-image: url("../assets/traveling.jpg");
+  height: 49.92em; }
+  .container .innerContainer {
+    max-width: 83.57em;
+    margin: 0 auto; }

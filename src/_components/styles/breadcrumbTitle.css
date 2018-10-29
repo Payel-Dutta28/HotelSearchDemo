@@ -1,0 +1,17 @@
+.cat-title {
+  background-color: #f0f3f4; }
+  .cat-title h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #b24700; }
+
+.cat-breadcrumbs-title {
+  padding: 1.07em 1.42em 0; }
+  .cat-breadcrumbs-title .breadcrumb-divider {
+    margin: 1.07em 0; }

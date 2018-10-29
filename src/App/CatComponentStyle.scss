@@ -1,0 +1,12 @@
+.container {
+  width: 100%;
+  // background-image: linear-gradient(to right, #ff8d4b, #ea5e0e);
+  background-image: url("../assets/traveling.jpg");
+  // background-image: url("https://ihg.scene7.com/is/image/ihg/ihg-nhop-interact-1440x485");
+
+  height: 49.92em;
+  .innerContainer {
+    max-width: 83.57em;
+    margin: 0 auto;
+  }
+}

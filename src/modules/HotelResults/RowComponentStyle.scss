@@ -1,0 +1,46 @@
+.row-wrapper {
+  background-color: #f4f2ed;
+  border: 1px solid #4e4848;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 204px;
+  color: #4e4848;
+  li {
+    list-style-type: circle;
+  }
+  .rateContainer {
+    border-left: 1px solid #4e4848;
+    .rate {
+      text-align: center;
+      padding-top: 50px;
+      .min-rate {
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+.hotelImg {
+}
+
+ul {
+  margin-top: 80px;
+}
+.hotelDetailsContainer {
+  margin-left: 20px;
+}
+.hotelNameContainer {
+  margin-left: 20px;
+}
+.rateContainer {
+  margin-top: 60px;
+  margin-left: 40px;
+}
+.hotelDetailsContainer {
+  p {
+    margin-block-start: 5px;
+    margin-block-end: 0px;
+    font-size: 12px;
+  }
+}

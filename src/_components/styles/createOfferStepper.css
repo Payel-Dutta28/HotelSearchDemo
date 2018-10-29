@@ -1,0 +1,49 @@
+.offer-details-icon .st0, .marketing-data-icon .st0, .rewards-details-icon .st0, .review-offer-icon .st0 {
+  fill: #FFFFFF;
+  stroke: #D3D3D3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: 2px; }
+
+.offer-details-icon .st1, .marketing-data-icon .st1, .rewards-details-icon .st1, .review-offer-icon .st1 {
+  fill: none;
+  stroke: #D3D3D3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: 2px; }
+
+.completed .offer-details-icon .st0, .completed .marketing-data-icon .st0, .completed .rewards-details-icon .st0, .completed .review-offer-icon .st0 {
+  fill: #05AEDD;
+  stroke: #05AEDD;
+  stroke-width: 2px; }
+
+.completed .offer-details-icon .st1, .completed .marketing-data-icon .st1, .completed .rewards-details-icon .st1, .completed .review-offer-icon .st1 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10; }
+
+.active .offer-details-icon .st0, .active .marketing-data-icon .st0, .active .rewards-details-icon .st0, .active .review-offer-icon .st0 {
+  fill: #FFFFFF;
+  stroke: #00A3D2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-width: 2px; }
+
+.active .offer-details-icon .st1, .active .marketing-data-icon .st1, .active .rewards-details-icon .st1, .active .review-offer-icon .st1 {
+  fill: none;
+  stroke: #00A3D2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10; }
+
+.step-connector span {
+  border-top-width: 2px;
+  border-color: #D3D3D3; }
+
+.step-button.completed + .step-connector span {
+  border-color: #00A3D2; }

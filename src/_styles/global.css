@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+  color: #00718a; }
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+ul {
+  padding: 0px; }
+
+li {
+  list-style-type: none; }
+
+.calendar .st0 {
+  fill: none;
+  stroke: #4e4848;
+  stroke-miterlimit: 10; }
+
+.offer .st0 {
+  fill: none;
+  stroke: #a7a9ac;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10; }
